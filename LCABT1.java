@@ -1,4 +1,10 @@
 
+/**
+ * LeetCode: Problem 236: Lowest Common Ancestor of a Binary Tree
+ * Url: https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/
+ * Time Complexity: O(N)
+ * Space Complexity: O(H) where H is the height of the tree
+ */
 public class LCABT1 {
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         if (root == null || root == p || root == q)
